@@ -1,0 +1,12 @@
+{
+    "timings": [
+        {
+            "metric": "interactive",
+            "budget": 5000
+        },
+        {
+            "metric": "cumulative-layout-shift",
+            "budget": 0
+        }
+    ]
+}

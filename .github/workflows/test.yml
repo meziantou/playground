@@ -16,5 +16,5 @@ jobs:
         urls: |
           https://www.meziantou.net
           https://www.meziantou.net/projects.htm
-        #budgetPath: ./budget.json
+        budgetPath: ./budget.json
         uploadArtifacts: true
