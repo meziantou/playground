@@ -1,12 +1,35 @@
-{
-    "timings": [
+[
+    {
+      "path": "/*",
+      "timings": [
         {
-            "metric": "interactive",
-            "budget": 5000
+          "metric": "interactive",
+          "budget": 3000
+        },
+        {
+          "metric": "first-meaningful-paint",
+          "budget": 1000
         },
         {
             "metric": "cumulative-layout-shift",
             "budget": 0
         }
-    ]
-}
+      ],
+      "resourceSizes": [
+        {
+          "resourceType": "script",
+          "budget": 125
+        },
+        {
+          "resourceType": "total",
+          "budget": 300
+        }
+      ],
+      "resourceCounts": [
+        {
+          "resourceType": "third-party",
+          "budget": 10
+        }
+      ]
+    }
+  ]
